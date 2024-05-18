@@ -1,0 +1,7 @@
+.background-Image3 {
+    background-image: url('Image14.png');
+    /* Adjust the path to your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120vh;
+}

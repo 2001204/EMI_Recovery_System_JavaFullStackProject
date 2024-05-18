@@ -1,0 +1,23 @@
+/* Card1.css */
+
+@keyframes zoomIn {
+    from {
+      transform: scale(0.5); /* Start with scale 0.5 */
+      opacity: 0; /* Start with opacity 0 */
+    }
+    to {
+      transform: scale(1); /* End with scale 1 */
+      opacity: 1; /* End with opacity 1 */
+    }
+  }
+  
+  /* Apply zoom-in animation to Card component on hover */
+  .card1:hover {
+    animation: zoomIn 1s ease-in-out; /* Duration: 1 second */
+  }
+
+.custom-card:hover {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+  }

@@ -1,0 +1,9 @@
+.background-image {
+    background-image: url('image11.png');
+    /* Adjust the path to your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+
+/* Additional styling for the form if needed */
